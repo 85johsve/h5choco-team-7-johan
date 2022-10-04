@@ -1,2 +1,3 @@
+namespace choco;
 //Chocolate
 //Hats
