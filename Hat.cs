@@ -5,9 +5,9 @@ namespace choco;
 class Hat:Product
 {
     public int Size { get; set; }
-    public int Price { get; set; }
+    
 
-    public Hat(int size, int price)
+    public Hat(int size, int price) : base (price)
     {
         Size = size;
         Price = price;

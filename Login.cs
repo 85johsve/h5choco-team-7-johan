@@ -2,11 +2,13 @@ namespace choco;
 
 class Login
 {
-    public int id { get; private set; }
+    public int Id { get; private set; }
 
-    public Login
+    public Login(int id)
     {
-        
+        Console.WriteLine("Ange personnummer: ");
+        Convert.ToInt32(Console.ReadLine());
+        Id = id;
     }
 }
 //username
