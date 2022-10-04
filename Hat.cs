@@ -1,15 +1,15 @@
 namespace choco;
 //Ärver från Products
 //size
-//price
-class Hat
+//price ärver?
+class Hat:Product
 {
-    public string Name { get; set; }
-    public string Email { get; set; }
+    public int Size { get; set; }
+    public int Price { get; set; }
 
-    public Author(string name, string email)
+    public Hat(int size, int price)
     {
-        Name = name;
-        Email = email;
+        Size = size;
+        Price = price;
     }
 }
